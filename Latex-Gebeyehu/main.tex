@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[style=authoryear]{biblatex}
+\addbibresource{Energilara.bib}
+\usepackage{listings}
+
+\title{Gebeyehu Latex}
+
+
+\begin{document}
+
+\maketitle
+\begin{table}
+    {\small
+    \section{Figure}
+    \section{Citation and reference}
+    \section{Listings }}
+\end{table}
+
+\begin{figure}
+    {\Huge 1. Figure}
+    
+    \vspace{10mm}
+    \centering
+    \includegraphics[width=\linewidth]{kth.jpg}
+    \caption{KTH emblem}
+    \label{fig:kth}
+\end{figure}
+\vspace{150mm}
+
+{\Huge 2. Reference}
+
+\vspace{10mm}
+{\LARGE The book we use in thermodynamics is called Energilära \autocite{Beckman2005egt}.}
+
+\vspace{30mm}
+
+{\Huge 3. Listings}
+
+\begin{lstlisting}
+    1  ssh user@gebeyehu.sys.kth.se
+    2  ssh user@student-shell.sys.kth.se
+    3  ssh gebeyehu.sys.kth.se
+    4  ssh gebeyehu@student-shell.kth.sys
+    5  ssh student-shell.sys.kth.se
+    6  ssh user@student-shell.sys.kth.se
+    7  ssh gebeyehu@student-shell.sys.kth.se
+    8  ssh gebeyehu.sys.kth.se
+    9  ssh student-shell.sys.kth.se
+   10  ssh user@student-shell.sys.kth.se
+   11  ssr student-shell.sys.kth.se
+   12  ssh student-shell.sys.kth.se
+   13  ssh gebeyehu.sys.kth.se
+   14  ssh gebeyehu@student-shell.sys.kth.se
+   15  ssh gebeyehu@dtudent-shell.sys.kth.se
+   16  ssh gebeyehu@student-shell.sys.kth-se
+   17  ssh gebeyehu@student-shell.sys.kth.se
+   18  ssh-keygen rsa -b 4096 -C 'gebeyehu@kth.se'
+   19  ssh-keygen -t rsa -b 4096 -C 'gebeyehu@kth.se'
+   20  ls-/.ssh
+   21  ls ~/.ssh
+   22  cat ~/.ssh/id rsa.pub
+   23  cst ~/.ssh/id_rsa.pub
+   24  cat ~/.ssh/id_rsa.pub
+   25  eval $(ssh-agent -s)
+   26  ssh-add ~/.ssh/id_rsa
+   27  git clone git@gits-15.sys.kth.se:inda-17/week-1.git
+   28  ssh gebeyehu@student-shell.sys.kth.se
+   29  clear
+   30  ls -al ~/.ssh
+   31  git clone git@gits-15.sys.kth.se:dataintro20/dataintro20-gebeyehu.git
+   32  git clone https://gits-15.sys.kth.se/datintro20/datinro20-gebeyehu.git
+   33  git clone https://gits-15.sys.kth.se/datintro20/datintro20-gebeyehu.git
+   34  ssh~agent
+   35  ssh-agent
+   36  clear
+   37  ssh gebeyehu@student-shell.sys.kth.se
+   38  atom new.md
+   39  ssh gebeyehu@student-shell.sys.kth.se
+   40  history
+   41  history > hs.txt
+\end{lstlisting}
+\vspace{90mm}
+
+\printbibliography
+\end{document}
+
+
+
+
